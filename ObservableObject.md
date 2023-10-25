@@ -1,5 +1,3 @@
-###Description
-
 @ObservedObject je property wrapper v jazyku Swift a je součástí SwiftUI frameworku. Slouží k označení objektů, které mají být sledovány pro změny a tyto změny mají být automaticky propagovány do uživatelského rozhraní (UI) pro obnovení zobrazení. To znamená, že pokud se stav objektu změní, UI se automaticky aktualizuje tak, aby reflektovalo tyto změny.
 
 Hlavní použití @ObservedObject je v SwiftUI pro sledování stavu objektů, které jsou součástí datového modelu aplikace, a pro aktualizaci zobrazení (View) v reakci na změny tohoto stavu. To je užitečné pro zachování reaktivního a interaktivního uživatelského rozhraní.
