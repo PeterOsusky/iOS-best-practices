@@ -1,6 +1,6 @@
 # iOS-best-practices
 
-## Frameworks:
+## Documentation:
 [Apple Documentation](https://developer.apple.com/documentation/technologies)
 
 ## Patterns:
