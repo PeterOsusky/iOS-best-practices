@@ -5,10 +5,6 @@ Hlavní použití @ObservedObject je v SwiftUI pro sledování stavu objektů, k
 Zde je jednoduchý příklad:
 
 
-@ObservedObject is a key concept in SwiftUI for managing and reacting to changes in your app's data. It allows you to create reactive user interfaces that automatically update when the underlying data changes.
-
-Here's a brief example:
-
 ```swift
 import SwiftUI
 
@@ -28,6 +24,7 @@ struct ContentView: View {
         }
     }
 }
+```
 
 V tomto příkladu MyViewModel je označeno jako ObservableObject, a jeho vlastnost count je označena @Published. V ContentView je viewModel označeno jako @ObservedObject, což znamená, že se UI automaticky aktualizuje, když se změní count. Když uživatel stiskne tlačítko "Increment", zvýší se count, což vede k automatické aktualizaci zobrazeného textu.
 
